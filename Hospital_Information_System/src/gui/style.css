@@ -1,0 +1,58 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", Arial;
+    -fx-background-color: #f5f7fb;
+}
+
+.header {
+    -fx-padding: 16;
+    -fx-background-color: white;
+    -fx-border-color: #e6e8ef;
+    -fx-border-width: 0 0 1 0;
+}
+
+.header-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-padding: 16;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #e6e8ef;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0.2, 0, 2);
+}
+
+.btn-primary {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 10 14;
+    -fx-font-weight: bold;
+}
+.btn-primary:hover { -fx-background-color: #1d4ed8; }
+
+.btn-secondary {
+    -fx-background-color: #eef2ff;
+    -fx-text-fill: #1e3a8a;
+    -fx-background-radius: 10;
+    -fx-padding: 10 14;
+    -fx-font-weight: bold;
+}
+.btn-secondary:hover { -fx-background-color: #e0e7ff; }
+
+.table-view {
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #e6e8ef;
+    -fx-background-color: white;
+}
+
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #d6dae6;
+    -fx-padding: 8 10;
+    -fx-background-color: white;
+}
